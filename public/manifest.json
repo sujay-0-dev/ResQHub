@@ -1,0 +1,41 @@
+{
+  "name": "ResQHub 2.0 - Emergency Response Platform",
+  "short_name": "ResQHub 2.0",
+  "description": "Real-world emergency and disaster assistance platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["emergency", "government", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Emergency Alert",
+      "short_name": "Alert",
+      "description": "Send emergency alert",
+      "url": "/alert",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Map",
+      "short_name": "Map",
+      "description": "View emergency map",
+      "url": "/map",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
